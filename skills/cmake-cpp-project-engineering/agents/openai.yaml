@@ -1,0 +1,6 @@
+interface:
+  display_name: "CMake C++ Project Engineering"
+  short_description: "按用户策略处理 CMake C++ 构建与交付，或保存、更新、删除依赖 recipe"
+  default_prompt: "使用 $cmake-cpp-project-engineering 处理当前 CMake C++ 构建与交付任务，或保存、更新、删除用户依赖 recipe；按任务范围应用工程策略。"
+policy:
+  allow_implicit_invocation: true

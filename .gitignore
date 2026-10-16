@@ -1,0 +1,24 @@
+# 本地配置与临时文件
+.local/
+.env
+.env.*
+!.env.example
+*.tmp
+*.log
+
+# 编辑器与操作系统生成内容
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Python 工具缓存与本地环境
+__pycache__/
+*.py[cod]
+.venv/
+
+# 后续 benchmark 的运行产物；输入和工具可纳入版本管理
+/benchmarks/runs/
+/benchmarks/build/
+/benchmarks/cache/
+/benchmarks/downloads/
